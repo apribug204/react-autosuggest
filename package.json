@@ -24,7 +24,8 @@
     "gh-pages-build": "npm run prebuild && npm run demo-dist",
     "postversion": "git push && git push --tags",
     "prepublish": "npm run dist && npm run standalone",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "es6-promise": "^4.2.8",
