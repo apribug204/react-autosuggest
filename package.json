@@ -25,7 +25,7 @@
     "postversion": "git push && git push --tags",
     "prepublish": "npm run dist && npm run standalone",
     "precommit": "lint-staged",
-    "prepare": "npm run build"
+    "prepare": "npm run dist"
   },
   "dependencies": {
     "es6-promise": "^4.2.8",
